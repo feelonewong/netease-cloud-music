@@ -1,0 +1,20 @@
+@import "~normalize.css";
+/*a,a:hover,a:active,a:visited,a:link,a:focus{*/
+/*    -webkit-tap-highlight-color:rgba(0,0,0,0);*/
+/*    -webkit-tap-highlight-color: transparent;*/
+/*    outline:none;*/
+/*    background: none;*/
+/*    text-decoration: none;*/
+/*    color: #fff;*/
+/*}*/
+a{
+    text-decoration: none;
+}
+
+.sprite_01 {
+    background: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?eb239b670c5c96adb13396f01af2edc5) no-repeat 0 9999px;
+}
+.wrapper-v1{
+    width: 1000px;
+    margin: 0 auto;
+}
