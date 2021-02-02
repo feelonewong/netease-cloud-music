@@ -1,5 +1,7 @@
 import React, {memo} from 'react';
 import { NavLink } from "react-router-dom";
+import { SearchOutlined } from '@ant-design/icons';
+import {Input, Button} from 'antd';
 
 import {headerLinks} from "@/common/local-data.js";
 
@@ -20,7 +22,7 @@ export default memo(function AppContent(){
                 )
             }else{
                 return(
-                    <a href={item.link} target="_blank">{item.title}</a>
+                    <a href={item.link} >{item.title}</a>
                 )
             }
         }
@@ -42,7 +44,16 @@ export default memo(function AppContent(){
                                 }
                             </div>
                         </HeaderLeft>
+                        <HeaderRight>
+                            <div className="input-search">
+                              <Input size="large" className="search" placeholder="音乐/视频/电台/用户"  prefix={<SearchOutlined  />} />
+                             <Button  shape="round" size="medium" className="create-button">
+                                       创作者中心
+                              </Button>
 
+                              <Button type="link" className="login">登录</Button>
+                            </div>
+                        </HeaderRight>
                     </div>
                     <div className="divider"></div>
                 </HeaderWrapper>

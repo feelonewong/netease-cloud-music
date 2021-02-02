@@ -54,19 +54,19 @@ export const HeaderLeft = styled.div`
       }
     }
     //控制hover状态
-    &:hover a, &.active a {
+    &:hover a, a.active  {
       color: #fff;
       background-color: #000;
       text-decoration: none;
     }
     //控制图标
-    &.icon{
+    .active .icon{
       position: absolute;
       display: inline-block;
       width: 12px;
       height: 7px;
       bottom: -1px;
-      left: -50%;
+      left: 50%;
       transform: translate(-50%, 0);
       background-position: -226px 0;
     }
@@ -76,5 +76,35 @@ export const HeaderLeft = styled.div`
 
 
 export const HeaderRight = styled.div`
-
+    .input-search{
+        height: 70px;
+        line-height: 70px;
+        align-items: center;
+        display: flex;
+        .search {
+            height: 32px;
+            width: 158px;
+            border-radius: 32px;   
+            input {
+                font-size: 12px;
+                color: #333;
+            }
+        }
+        .create-button {
+            border: 1px solid #4F4F4F;
+            color: #ccc;
+            background-color: inherit;
+            margin-left: 12px;
+            :hover{
+                border: 1px solid #fff;
+                color: #fff;        
+            }
+        }
+        .login{
+          color: #787878;
+        }
+        .login:hover{
+          color: #999;
+        }
+    }
 `;

@@ -1,9 +1,17 @@
-import React, {Component} from 'react';
+import React from 'react';
+
+import {
+    FooterWrapper
+} from "./style";
 
 export default function AppFooter(){
     return(
         <>
-            <h1>App Footer</h1>
+            <FooterWrapper>
+                <div className="wrapper-v2">
+                    123
+                </div>
+            </FooterWrapper>
         </>
     )
 };
