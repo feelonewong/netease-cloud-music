@@ -21,6 +21,7 @@ export const HeaderLeft = styled.div`
   .logo{
     width: 176px;
     height: 69px;
+    text-indent: 9999px;
     background-position: 0 0;
     display: block;
     background-image: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?eb239b670c5c96adb13396f01af2edc5);

@@ -28,7 +28,7 @@ export const headerLinks = [
 export const topMenu = [
     {
         title: "推荐",
-        link: "/discover/recommand"
+        link: "/discover/recommend"
     },
     {
         title: "排行榜",

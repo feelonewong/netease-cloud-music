@@ -31,7 +31,7 @@ export default memo(function AppContent(){
                 <HeaderWrapper>
                     <div className="content wrapper-v1">
                         <HeaderLeft>
-                            <a href="#/" className="logo"></a>
+                            <a href="#/" className="logo">123</a>
                             <div className="select-list">
                                 {
                                     headerLinks.map( (item, index)=>{
@@ -56,6 +56,7 @@ export default memo(function AppContent(){
                         </HeaderRight>
                     </div>
                     <div className="divider"></div>
+                    
                 </HeaderWrapper>
             </>
         )

@@ -9,7 +9,7 @@ export default function AppFooter(){
         <>
             <FooterWrapper>
                 <div className="wrapper-v2">
-                    123
+                  
                 </div>
             </FooterWrapper>
         </>
