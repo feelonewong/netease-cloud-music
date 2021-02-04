@@ -24,3 +24,30 @@ export const headerLinks = [
         link: "/download"
     }
 ];
+
+export const topMenu = [
+    {
+        title: "推荐",
+        link: "/discover/recommand"
+    },
+    {
+        title: "排行榜",
+        link: "/discover/toplist"
+    },
+    {
+        title: "歌单",
+        link: "/discover/playlist"
+    },
+    {
+        title: "主播电台",
+        link: "/discover/djradio"
+    },
+    {
+        title: "歌手",
+        link: "/discover/artist"
+    },
+    {
+        title: "新碟上架",
+        link: "/discover/album"
+    }
+]
